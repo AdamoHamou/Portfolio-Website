@@ -1,17 +1,29 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isAtTop, setIsAtTop] = useState(true);
 
-  // close mobile menu helper
+  // detect scroll position
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsAtTop(window.scrollY === 0);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   const closeMobileMenu = () => setIsMenuOpen(false);
 
   return (
     <nav className="fixed inset-0 z-50 pointer-events-none">
       {/* DESKTOP NAVBAR */}
-      <div className="hidden md:block fixed top-4 left-0 right-0 z-50 pointer-events-none">
+      <div
+        className={`hidden md:block fixed top-4 left-0 right-0 z-50 transition-opacity duration-300 ${isAtTop ? 'opacity-100' : 'opacity-0 pointer-events-none'
+          }`}
+      >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between pointer-events-auto">
           {/* LEFT: floating logo */}
           <a href="/" className="inline-flex">
