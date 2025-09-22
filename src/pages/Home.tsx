@@ -100,17 +100,17 @@ const Home: React.FC = () => {
     <div className="max-w-7xl mx-auto px-4">
       <div className="flex flex-col md:flex-row items-stretch md:items-start justify-between gap-4 md:gap-6">
         {/* Left box - socials */}
-        <div className="flex-1 md:flex-[0_0_30%] bg-transparent border border-white/10 rounded-md p-6 flex flex-col justify-center items-start h-44">
+        <div className="flex-1 md:flex-[0_0_30%] bg-transparent border border-white/10 rounded-md p-6 flex flex-col justify-center items-start h-44 backdrop-blur-sm">
           <h3 className="text-lg font-semibold mb-3">Find me</h3>
           <ul className="space-y-2">
-            <li><a href="https://www.linkedin.com/in/adam-hamou/"       className="text-white/90 hover:text-white">LinkedIn</a></li>
-            <li><a href="https://github.com/AdamoHamou"                 className="text-white/90 hover:text-white">GitHub</a></li>
-            <li><a href="https://discord.com/users/228991529748791298"  className="text-white/90 hover:text-white">Discord</a></li>
+            <li><a href="https://www.linkedin.com/in/adam-hamou/"       className="text-white/90 hover:text-white underline">LinkedIn</a></li>
+            <li><a href="https://github.com/AdamoHamou"                 className="text-white/90 hover:text-white underline">GitHub</a></li>
+            <li><a href="https://discord.com/users/228991529748791298"  className="text-white/90 hover:text-white underline">Discord</a></li>
           </ul>
         </div>
 
         {/* Middle box - CV */}
-        <div className="flex-1 md:flex-[0_0_30%] bg-transparent border border-white/10 rounded-md p-6 flex flex-col justify-start items-center h-36">
+        <div className="flex-1 md:flex-[0_0_30%] bg-transparent border border-white/10 rounded-md p-6 flex flex-col justify-start items-center h-36 backdrop-blur-sm">
           <h3 className="text-lg font-semibold mb-4">Resume</h3>
           <a
             href="/Adam_CV.pdf"
@@ -123,11 +123,11 @@ const Home: React.FC = () => {
         </div>
 
         {/* Right box - contact */}
-        <div className="flex-1 md:flex-[0_0_30%] bg-transparent border border-white/10 rounded-md p-6 flex flex-col justify-start items-start h-44">
+        <div className="flex-1 md:flex-[0_0_30%] bg-transparent border border-white/10 rounded-md p-6 flex flex-col justify-start items-start h-44 backdrop-blur-sm">
           <h3 className="text-lg font-semibold mb-3">Get in Touch!</h3>
           <ul className="space-y-2">
-            <li><a href="mailto:adam.hamou1975@gmail.com" className="text-white/90 hover:text-white">Email</a></li>
-            <li><a href="https://www.youtube.com/" target="_blank" rel="noreferrer" className="text-white/90 hover:text-white">YouTube</a></li>
+            <li><a href="mailto:adam.hamou1975@gmail.com"                           className="text-white/90 hover:text-white underline">Email</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noreferrer" className="text-white/90 hover:text-white underline">YouTube</a></li>
           </ul>
         </div>
       </div>
