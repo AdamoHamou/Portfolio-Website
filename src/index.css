@@ -1,8 +1,6 @@
 
 
 @import "tailwindcss";
-@tailwind base;
-@tailwind components;
 @tailwind utilities;
 
 
@@ -69,7 +67,6 @@ body { overflow: hidden; background: black; }
   50% { transform: scale(1.15); opacity: 1; }
   100% { transform: scale(0.7); opacity: 0.4; }
 }
-
 
 
 /* flying stars that travel across the screen */
