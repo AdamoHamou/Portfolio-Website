@@ -1,5 +1,4 @@
-
-
+@import '@fontsource/cascadia-code';
 @import "tailwindcss";
 @tailwind utilities;
 
@@ -10,8 +9,12 @@ html {
 
 
 @layer base {
-html, body, #root { height: 100%; }
-body { overflow: hidden; background: black; }
+html, body, #root {
+  height: 100%;
+  @apply font-sans;
+  font-family: 'Cascadia Code';
+}
+body { overflow: hidden; background: black;}
 }
 
 /* Nebula gradient (single base) */
