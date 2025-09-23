@@ -40,7 +40,7 @@ const sampleProjects: Project[] = [
         description: 'An interactive, responsive web application built with React and styled with Tailwind CSS for a modern, dynamic user experience.',
         image: '/portfolio.jpg',
         repo: 'https://github.com/AdamoHamou/Portfolio-Website',
-        tech: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
+        tech: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'AWS', 'S3', 'CloudFront'],
     },
 ];
 

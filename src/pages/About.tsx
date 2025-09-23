@@ -13,7 +13,7 @@ const stackIcons = [
   { name: 'AWS EC2', src: '/tech/EC2.svg' },
   { name: 'AWS S3', src: '/tech/Simple Storage Service.svg' },
   { name: 'AWS Lambda', src: '/tech/Lambda.svg' },
-  { name: 'scikit-learn', src: '/tech/scikit-learn.svg' },
+  { name: 'AWS Cloud Front', src: '/tech/CloudFront.svg' },
   { name: 'React', src: '/tech/React.svg' },
   { name: 'Vite.js', src: '/tech/Vite.js.svg' },
   { name: 'Tailwind CSS', src: '/tech/Tailwind CSS.svg' },
