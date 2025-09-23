@@ -48,12 +48,12 @@ const Projects: React.FC = () => {
     return (
         <div className="min-h-screen flex flex-col items-center text-white py-12">
             {/* Use the same width wrapper as the footer so the boxes match exactly */}
-            <div className="max-w-7xl mx-auto px-4 w-full">
+            <div className="max-w-6xl mx-auto px-4 w-full">
                 <h1 className="mb-10"></h1>
 
                 <div className="flex flex-col gap-6 ">
                     {sampleProjects.map((p) => (
-                        <article key={p.id} className="overflow-visible">
+                        <article key={p.id} className="overflow-visible backdrop-blur-sm">
                             {/* On mobile: whole card is clickable. On desktop: only the image is clickable. */}
                             <a
                                 href={p.repo}
@@ -88,7 +88,7 @@ const Projects: React.FC = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     aria-label={`Open ${p.title} repository`}
-                                    className="flex-shrink-0 items-stretch relative overflow-visible rounded-l-md border border-white/10"
+                                    className="flex-shrink-0 items-stretch relative overflow-visible rounded-l-md border-l border-white/10"
                                 >
                                     <div className="h-full aspect-[4/3] w-auto overflow-visible">
                                         <img

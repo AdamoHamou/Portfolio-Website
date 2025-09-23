@@ -100,7 +100,7 @@ const Home: React.FC = () => {
     <div className="max-w-7xl mx-auto px-4">
       <div className="flex flex-col md:flex-row items-stretch md:items-start justify-between gap-4 md:gap-6">
         {/* Left box - socials */}
-        <div className="flex-1 md:flex-[0_0_30%] bg-transparent border border-white/10 rounded-md p-6 flex flex-col justify-center items-start h-44 backdrop-blur-sm">
+        <div className="flex-1 md:flex-[0_0_30%] bg-transparent border border-black-500/200 rounded-md p-6 flex flex-col justify-center items-start h-44 backdrop-blur-sm">
           <h3 className="text-lg font-semibold mb-3">Find me</h3>
           <ul className="space-y-2">
             <li><a href="https://www.linkedin.com/in/adam-hamou/"       className="text-white/90 hover:text-white underline">LinkedIn</a></li>
@@ -110,7 +110,7 @@ const Home: React.FC = () => {
         </div>
 
         {/* Middle box - CV */}
-        <div className="flex-1 md:flex-[0_0_30%] bg-transparent border border-white/10 rounded-md p-6 flex flex-col justify-start items-center h-36 backdrop-blur-sm">
+        <div className="flex-1 md:flex-[0_0_30%] bg-transparent border border-black-500/20 rounded-md p-6 flex flex-col justify-start items-center h-36 backdrop-blur-sm">
           <h3 className="text-lg font-semibold mb-4">Resume</h3>
           <a
             href="/Adam_CV.pdf"
@@ -123,7 +123,7 @@ const Home: React.FC = () => {
         </div>
 
         {/* Right box - contact */}
-        <div className="flex-1 md:flex-[0_0_30%] bg-transparent border border-white/10 rounded-md p-6 flex flex-col justify-start items-start h-44 backdrop-blur-sm">
+        <div className="flex-1 md:flex-[0_0_30%] bg-transparent border border-black-500/20rounded-md p-6 flex flex-col justify-start items-start h-44 backdrop-blur-sm">
           <h3 className="text-lg font-semibold mb-3">Get in Touch!</h3>
           <ul className="space-y-2">
             <li><a href="mailto:adam.hamou1975@gmail.com"                           className="text-white/90 hover:text-white underline">Email</a></li>

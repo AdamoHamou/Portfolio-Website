@@ -3,7 +3,8 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
 import { BrowserRouter } from 'react-router-dom'
-import '@fontsource-variable/cascadia-code';
+import '@fontsource/cascadia-code/400.css';
+import '@fontsource/cascadia-code/700.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
