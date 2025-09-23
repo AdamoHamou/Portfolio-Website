@@ -3,7 +3,7 @@ import Typewriter from '../components/Typewriter';
 
 const stackIcons = [
   { name: 'C', src: '/tech/C.svg' },
-  { name: 'C++', src: '/tech/C++ (CPlusPlus).svg' },
+  { name: 'CPP', src: '/tech/CPP.svg' },
   { name: 'JavaScript', src: '/tech/JavaScript.svg' },
   { name: 'Python', src: '/tech/Python.svg' },
   { name: 'TypeScript', src: '/tech/TypeScript.svg' },
@@ -126,8 +126,8 @@ const About: React.FC = () => {
                   <div>
                     <h4 className="text-lg font-semibold text-purple-300 mb-2">Cusine</h4>
                     <ol className="list-decimal list-inside text-gray-300 space-y-1">
-                      <li>Mediteranean</li>
-                      <li>Vietnemese</li>
+                      <li>Mediterranean</li>
+                      <li>Vietnamese</li>
                       <li>Japanese</li>
                       <li>Indian</li>
                       <li>Chinese</li>
